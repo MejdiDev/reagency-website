@@ -1,0 +1,82 @@
+.slider {
+    text-align: center;
+}
+
+.slider .photos {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.slider .titles {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider .titles p {
+  color: #ff5500;
+  font-size: 40px;
+  position: absolute;
+  z-index: 999;
+  top: calc(50vh + 80px);
+}
+
+.slider .titles h1 {
+  position: absolute;
+  top: 15vh;
+  color: #fff;
+  font-size: 200px;
+  font-weight: 600;
+  z-index: 999;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.slider .titles h1.shown {
+  opacity: 1;
+}
+
+
+.slider .photos .carr-page {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s;
+    position: absolute;
+
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.slider .photos .carr-page.shown {
+    opacity: 1;
+}
+
+.slider .prev:before,
+.slider .next:before {
+  color: #fff;
+  font-size: 100px;
+  position: absolute;
+  top: 35%;
+  cursor: pointer;
+}
+
+.slider .prev:before {
+  content: url('../img/arrow_left.png');
+  top: calc(50% - 67px);
+  left: 50px;
+  z-index: 999;
+}
+
+.slider .next:before {
+  content: url('../img/arrow-right.png');
+  top: calc(50% - 67px);
+  right: 50px;
+  z-index: 999;
+}
