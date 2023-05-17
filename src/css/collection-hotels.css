@@ -1,0 +1,271 @@
+#overlay {
+  width: 100% !important;
+}
+
+#mobileNavbar {
+  width: 40vw;
+}
+
+nav {
+  width: 100%;
+  height: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #fff;
+}
+
+nav #menu {
+  margin-top: -2px;
+}
+
+nav #menu div {
+  background: #000;
+}
+
+nav img {
+  width: 200px;
+}
+
+#content {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#content #landing {
+  margin-bottom: 70px;
+  width: 100%;
+  height: 120vh;
+  -webkit-transition: height 300ms;
+  transition: height 300ms;
+  position: relative;
+  background-image: url("../img/beach-house.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#content #landing #input-wrapper {
+  top: calc(120vh - 30px);
+}
+
+#content #landing #gradient {
+  position: absolute;
+  width: 100%;
+  height: 70%;
+  top: 30%;
+  background: #021033;
+  background: -webkit-gradient(linear, left bottom, left top, from(#021033), to(rgba(0, 212, 255, 0)));
+  background: linear-gradient(0deg, #021033 0%, rgba(0, 212, 255, 0) 100%);
+}
+
+#content #landing #input-wrapper input[type="text"] {
+  display: block;
+  width: 100%;
+  text-align: start;
+}
+
+#content #list-wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#content #list-wrapper #top {
+  width: 90%;
+}
+
+#content #list-wrapper #top h1 {
+  font-weight: 600;
+  font-size: 45px;
+  margin: 0;
+  margin-bottom: 14px;
+  color: #021033;
+}
+
+#content #list-wrapper #list {
+  margin-top: 25px;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#content #list-wrapper #list .element {
+  width: calc(50% - 25px);
+  margin-bottom: 50px;
+  height: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#content #list-wrapper #list .element:first-child #background {
+  background-image: url("../img/hotels/hotel-1.png");
+}
+
+#content #list-wrapper #list .element:nth-child(2) #background {
+  background-image: url("../img/hotels/hotel-2.png");
+}
+
+#content #list-wrapper #list .element:nth-child(3) #background {
+  background-image: url("../img/hotels/hotel-3.png");
+}
+
+#content #list-wrapper #list .element:nth-child(4) #background {
+  background-image: url("../img/hotels/hotel-4.png");
+}
+
+#content #list-wrapper #list .element:nth-child(5) #background {
+  background-image: url("../img/hotels/hotel-5.png");
+}
+
+#content #list-wrapper #list .element:nth-child(6) #background {
+  background-image: url("../img/hotels/hotel-6.png");
+}
+
+#content #list-wrapper #list .element div {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+#content #list-wrapper #list .element div:hover #background {
+  width: 115%;
+  height: 115%;
+}
+
+#content #list-wrapper #list .element div #background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  -webkit-transition: height 300ms, width 300ms;
+  transition: height 300ms, width 300ms;
+}
+
+#content #list-wrapper #list .element div h3 {
+  font-size: 30px;
+  color: #fff;
+  z-index: 999;
+}
+
+#content #list-wrapper #list .element button {
+  background: transparent;
+  border: solid 2px #021033;
+  color: #021033;
+  font-family: 'Caviar Dreams';
+  font-size: 25px;
+  width: 100%;
+  height: 70px;
+  -webkit-transition: color 400ms, background 400ms;
+  transition: color 400ms, background 400ms;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+#content #list-wrapper #list .element button:hover {
+  color: #fff;
+  background: #021033;
+}
+
+#content #mail {
+  width: 100%;
+  margin-bottom: 250px;
+}
+
+@media only screen and (max-width: 1100px) {
+  footer {
+    margin-top: 200px !important;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  #list-wrapper {
+    margin-top: 100px !important;
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  #landing {
+    height: 400px !important;
+  }
+  #list-wrapper {
+    margin-top: 20px !important;
+  }
+  #list-wrapper #list {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-flow: column nowrap !important;
+            flex-flow: column nowrap !important;
+  }
+  #list-wrapper #list .element {
+    height: 400px !important;
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 701px) {
+  #list-wrapper #top h1 {
+    font-size: 35px !important;
+  }
+}

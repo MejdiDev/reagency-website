@@ -1,0 +1,196 @@
+#background-page {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../img/sea-deck.png');
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+
+    nav {
+        width: 100%;
+        height: 210px;
+    
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        align-items: center;
+    
+        a {
+            z-index: 997;
+            margin-right: 20px;
+
+            &:last-child { margin-right: 0 }
+
+            img {
+                margin-top: 20px;
+                width: 270px;
+            }
+        }
+    
+        #sections {
+            display: flex;
+            z-index: 997;
+            width: 70%;
+            height: 50px;
+
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            align-items: center;
+
+            p {
+                white-space: nowrap;
+            }
+        }
+    
+        #gradient {
+            height: 210px;
+            width: 100%;
+            position: absolute;
+    
+            background: rgb(2,16,51);
+            background: linear-gradient(0deg, rgba(2,16,51,1) 0%, rgba(0,212,255,0) 180%);
+        }
+
+        #menu {
+            display: none;
+            z-index: 997;
+        }
+    }
+
+    #input-wrapper {
+        top: auto !important;
+        position: relative;
+        margin-left: 0;
+        margin-top: 50px;
+    }
+
+    #msg {
+        margin-top: 50px;
+        width: 100%;
+        height: 100%;
+        color: #fff;
+        font-size: 35px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        background: rgba(2, 16, 51, .58);
+        padding-bottom: 150px;
+
+        #text {
+            margin-top: 50px;
+            width: 80%;
+
+            p {
+                text-align: center;
+            }
+        }
+    }
+}
+
+#content {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-flow:  column nowrap;
+    align-items: center;
+
+    #contact-cta {
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        height: 600px;
+
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            width: 500px;
+            top: -300px;
+            left: 0;
+            position: absolute;
+            z-index: -1;
+            opacity: .50;
+        }
+
+        h2 {
+            width: 90%;
+            text-align: center;
+        }
+
+        button {
+            z-index: 997;
+            border: none;
+            border-radius: 0;
+            width: 250px;
+            height: 65px;
+            background: #ff5500;
+            color: #fff;
+            font-family: 'Caviar Dreams';
+            font-weight: 600;
+            font-size: 18px;
+            margin-top: 15px;
+            cursor: pointer;
+            transition: background 300ms;
+
+            &:hover {
+                background: #cc4400;
+            }
+        }
+    }
+
+    #mail {
+        width: 100%;
+        margin-bottom: 250px;
+    }
+}
+
+@media only screen and (max-width: 1235px) {
+    nav {
+        height: 100px !important;
+        flex-flow: row nowrap !important;
+
+        img {
+            margin-top: 13px !important;
+            width: 200px !important;
+        }
+
+        #gradient {
+            height: 100px !important;
+        }
+
+        #sections {
+            display: none !important;
+        }
+
+        #menu {
+            display: flex !important;
+        }
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    footer {
+        margin-top: 200px !important;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    #background-page {
+        #msg {
+            #text {
+                width: 90%;
+
+                p {
+                    font-size: 25px !important;
+                }
+            }
+        }
+    }
+}

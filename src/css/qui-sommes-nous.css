@@ -1,0 +1,235 @@
+#background-page {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../img/sea-deck.png");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#background-page nav {
+  width: 100%;
+  height: 210px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#background-page nav a {
+  z-index: 997;
+  margin-right: 20px;
+}
+
+#background-page nav a:last-child {
+  margin-right: 0;
+}
+
+#background-page nav a img {
+  margin-top: 20px;
+  width: 270px;
+}
+
+#background-page nav #sections {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 997;
+  width: 70%;
+  height: 50px;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#background-page nav #sections p {
+  white-space: nowrap;
+}
+
+#background-page nav #gradient {
+  height: 210px;
+  width: 100%;
+  position: absolute;
+  background: #021033;
+  background: -webkit-gradient(linear, left bottom, left top, from(#021033), color-stop(180%, rgba(0, 212, 255, 0)));
+  background: linear-gradient(0deg, #021033 0%, rgba(0, 212, 255, 0) 180%);
+}
+
+#background-page nav #menu {
+  display: none;
+  z-index: 997;
+}
+
+#background-page #input-wrapper {
+  top: auto !important;
+  position: relative;
+  margin-left: 0;
+  margin-top: 50px;
+}
+
+#background-page #msg {
+  margin-top: 50px;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  font-size: 35px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: rgba(2, 16, 51, 0.58);
+  padding-bottom: 150px;
+}
+
+#background-page #msg #text {
+  margin-top: 50px;
+  width: 80%;
+}
+
+#background-page #msg #text p {
+  text-align: center;
+}
+
+#content {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#content #contact-cta {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#content #contact-cta img {
+  width: 500px;
+  top: -300px;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+  opacity: .50;
+}
+
+#content #contact-cta h2 {
+  width: 90%;
+  text-align: center;
+}
+
+#content #contact-cta button {
+  z-index: 997;
+  border: none;
+  border-radius: 0;
+  width: 250px;
+  height: 65px;
+  background: #ff5500;
+  color: #fff;
+  font-family: 'Caviar Dreams';
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 15px;
+  cursor: pointer;
+  -webkit-transition: background 300ms;
+  transition: background 300ms;
+}
+
+#content #contact-cta button:hover {
+  background: #cc4400;
+}
+
+#content #mail {
+  width: 100%;
+  margin-bottom: 250px;
+}
+
+@media only screen and (max-width: 1235px) {
+  nav {
+    height: 100px !important;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-flow: row nowrap !important;
+            flex-flow: row nowrap !important;
+  }
+  nav img {
+    margin-top: 13px !important;
+    width: 200px !important;
+  }
+  nav #gradient {
+    height: 100px !important;
+  }
+  nav #sections {
+    display: none !important;
+  }
+  nav #menu {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  footer {
+    margin-top: 200px !important;
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  #background-page #msg #text {
+    width: 90%;
+  }
+  #background-page #msg #text p {
+    font-size: 25px !important;
+  }
+}

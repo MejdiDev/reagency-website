@@ -21,7 +21,7 @@
   color: #ff5500;
   font-size: 40px;
   position: absolute;
-  z-index: 999;
+  z-index: 997;
   top: calc(50vh + 80px);
 }
 
@@ -31,9 +31,9 @@
   color: #fff;
   font-size: 200px;
   font-weight: 600;
-  z-index: 999;
+  z-index: 997;
   opacity: 0;
-  transition: opacity 1s;
+  transition: opacity 1s, font-size 300ms;
 }
 
 .slider .titles h1.shown {
@@ -71,12 +71,12 @@
   content: url('../img/arrow_left.png');
   top: calc(50% - 67px);
   left: 50px;
-  z-index: 999;
+  z-index: 997;
 }
 
 .slider .next:before {
   content: url('../img/arrow-right.png');
   top: calc(50% - 67px);
   right: 50px;
-  z-index: 999;
+  z-index: 997;
 }

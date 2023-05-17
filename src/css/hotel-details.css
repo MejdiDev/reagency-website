@@ -1,0 +1,927 @@
+#overlay {
+  width: 100% !important;
+}
+
+#mobileNavbar {
+  width: 40vw;
+}
+
+nav {
+  width: 100%;
+  height: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #fff;
+}
+
+nav #menu {
+  margin-top: -2px;
+}
+
+nav #menu div {
+  background: #000;
+}
+
+nav img {
+  width: 200px;
+}
+
+#content {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#content #landing {
+  margin-bottom: 102px;
+  width: 100%;
+  height: 120vh;
+  -webkit-transition: height 300ms;
+  transition: height 300ms;
+  position: relative;
+  background-image: url("../img/hotels/hotel-2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#content #landing #logo {
+  margin-top: 70px;
+  -webkit-filter: drop-shadow(2.544px 1.59px 0.98px rgba(0, 0, 0, 0.67));
+          filter: drop-shadow(2.544px 1.59px 0.98px rgba(0, 0, 0, 0.67));
+  width: 330px;
+}
+
+#content #landing h1 {
+  font-size: 100px;
+}
+
+#content #landing h3 {
+  font-size: 30px;
+}
+
+#content #landing #input-wrapper {
+  top: calc(120vh - 30px);
+  margin-left: 0;
+}
+
+#content #landing #gradient {
+  position: absolute;
+  width: 100%;
+  height: 70%;
+  top: 30%;
+  background: #021033;
+  background: -webkit-gradient(linear, left bottom, left top, from(#021033), to(rgba(0, 212, 255, 0)));
+  background: linear-gradient(0deg, #021033 0%, rgba(0, 212, 255, 0) 100%);
+}
+
+#content #landing #text {
+  margin-top: -140px;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#content #landing #text #stars {
+  z-index: 996;
+  margin-bottom: 20px;
+}
+
+#content #landing #text #stars img {
+  width: 40px;
+}
+
+#content #landing #text h1 {
+  color: #fff;
+  z-index: 996;
+  margin: 0;
+}
+
+#content #landing #text h3 {
+  color: #fff;
+  z-index: 996;
+  margin: 0;
+}
+
+#content #features {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 150px;
+}
+
+#content #features #top {
+  width: 90%;
+}
+
+#content #number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 100px;
+}
+
+#content #number h1 {
+  font-size: 150px;
+  color: #ff5500;
+  margin: 0;
+  text-align: center;
+}
+
+#content #number h3 {
+  font-weight: 600;
+  font-size: 25px;
+  color: #021033;
+  margin: 0;
+  text-align: center;
+}
+
+#content #grid {
+  width: calc(100% - 120px);
+  gap: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 150px;
+}
+
+#content #grid section:first-child {
+  color: #021033;
+}
+
+#content #grid section:first-child h1 {
+  font-size: 35px;
+}
+
+#content #grid section:first-child #main {
+  font-size: 22px;
+}
+
+#content #grid section:first-child #underlined {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#content #grid section:first-child #underlined p {
+  font-size: 16px;
+  font-weight: 600;
+  margin-right: 20px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  -webkit-transition: color 250ms;
+  transition: color 250ms;
+  cursor: pointer;
+}
+
+#content #grid section:first-child #underlined p:hover {
+  color: #ff5500;
+}
+
+#content #grid section:first-child #underlined p:last-child {
+  margin-right: 0;
+}
+
+#content #grid section:first-child button {
+  background: #021033;
+  color: #fff;
+  font-family: 'Caviar Dreams';
+  font-size: 20px;
+  width: 200px;
+  height: 50px;
+  -webkit-transition: color 400ms, background 400ms;
+  transition: color 400ms, background 400ms;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+#content #grid section:first-child button:hover {
+  color: #021033;
+  background: #fff;
+}
+
+#content #grid #seperation {
+  height: 600px;
+  width: 1px;
+  background: #000;
+}
+
+#content #grid section:last-of-type {
+  color: #021033;
+}
+
+#content #grid section:last-of-type h1 {
+  font-size: 35px;
+  margin: 0;
+}
+
+#content #grid section:last-of-type h1:last-of-type {
+  margin-top: 50px;
+}
+
+#content #grid section:last-of-type p {
+  margin: 0;
+}
+
+#content #grid section:last-of-type #main {
+  font-size: 22px;
+}
+
+#content #grid section:last-of-type #club-advantages {
+  margin: 20px 0;
+}
+
+#content #grid section:last-of-type #club-advantages div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 15px;
+}
+
+#content #grid section:last-of-type #club-advantages div img {
+  width: 28px;
+  height: 28px;
+  margin-right: 10px;
+}
+
+#content #grid section:last-of-type #club-advantages div p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 18px;
+}
+
+#content #grid section:last-of-type p:nth-of-type(2) {
+  font-weight: 600;
+}
+
+#content #grid section:last-of-type #compte {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 600;
+}
+
+#content #grid section:last-of-type #compte p:first-child, #content #grid section:last-of-type #compte p:last-child {
+  font-size: 16px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  -webkit-transition: color 250ms;
+  transition: color 250ms;
+  cursor: pointer;
+}
+
+#content #grid section:last-of-type #compte p:first-child:hover, #content #grid section:last-of-type #compte p:last-child:hover {
+  color: #ff5500;
+}
+
+#content #grid section:last-of-type #compte p {
+  font-size: 16px !important;
+}
+
+#content #grid section:last-of-type #distingue p {
+  font-weight: 600;
+  font-size: 17px;
+  margin-top: 25px;
+}
+
+#content #selection-chambres {
+  width: 100%;
+  height: 700px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("../img/room.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#content #selection-chambres #gradient {
+  position: absolute;
+  width: 100%;
+  height: 70%;
+  bottom: 0;
+  background: #021033;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(-25%, #021033), to(rgba(0, 212, 255, 0)));
+  background: linear-gradient(0deg, #021033 -25%, rgba(0, 212, 255, 0) 100%);
+}
+
+#content #selection-chambres #title {
+  z-index: 996;
+  color: #fff;
+  width: 90%;
+  margin-top: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#content #selection-chambres #title h1 {
+  font-size: 35px;
+}
+
+#content #selection-chambres #title button {
+  height: 50px;
+  width: 220px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  font-family: "Caviar Dreams";
+  background: transparent;
+  border: solid 1px #fff;
+  cursor: pointer;
+  -webkit-transition: color 300ms, border 300ms, background 300ms;
+  transition: color 300ms, border 300ms, background 300ms;
+}
+
+#content #selection-chambres #title button:hover {
+  color: #021033;
+  border-color: #021033;
+  background: #fff;
+}
+
+#content #selection-chambres #seperation {
+  height: 1px;
+  width: 90%;
+  background: #fff;
+}
+
+#content #selection-chambres #main {
+  margin-top: 100px;
+  width: 95%;
+  margin-left: 5%;
+  z-index: 996;
+  color: #fff;
+  font-weight: 500;
+}
+
+#content #selection-chambres #main h1 {
+  font-size: 80px;
+  margin: 0;
+}
+
+#content #selection-chambres #main p {
+  width: 600px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+#content #selection-chambres #main button {
+  border: none;
+  border-radius: 0;
+  width: 250px;
+  height: 65px;
+  background: #ff5500;
+  color: #fff;
+  font-family: 'Caviar Dreams';
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 15px;
+  cursor: pointer;
+  -webkit-transition: background 300ms;
+  transition: background 300ms;
+}
+
+#content #selection-chambres #main button:hover {
+  background: #cc4400;
+}
+
+#content #avis {
+  height: 600px;
+  width: 100%;
+  background: #f7f3f3;
+  color: #021033;
+  margin-bottom: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#content #avis h1 {
+  width: calc(100% - 200px);
+  margin-left: 0;
+}
+
+#content #avis #avis-wrapper {
+  width: calc(100% - 200px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#content #avis #avis-wrapper .avis {
+  width: 500px;
+}
+
+#content #avis #avis-wrapper .avis #top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+#content #avis #avis-wrapper .avis #seperation {
+  width: 100%;
+  height: 1px;
+  background: #000;
+}
+
+#content #avis #avis-wrapper .avis h2 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+#content #inter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  width: 100%;
+  color: #021033;
+  margin-bottom: 80px;
+}
+
+#content #inter #top {
+  width: calc(100% - 150px);
+  margin-left: 100px;
+}
+
+#content #inter #top h1 {
+  font-size: 45px;
+}
+
+#content #info {
+  width: 100%;
+  background: #f7f3f3;
+  color: #021033;
+  padding: 30px 0 40px 0;
+  margin-bottom: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#content #info #hotel-info {
+  margin: 0;
+  height: auto;
+}
+
+#content #info #hotel-info .point {
+  height: auto;
+  text-align: start;
+}
+
+#content #info #hotel-info .point h2, #content #info #hotel-info .point p {
+  margin: 0;
+}
+
+#content #info #hotel-info .point h2 {
+  margin-top: 50px;
+}
+
+#content #info #hotel-info .point p {
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#content #info #hotel-info .seperation div {
+  margin-top: 20px;
+  height: 450px;
+}
+
+#content #info button {
+  margin-top: 40px;
+  z-index: 997;
+  border: none;
+  border-radius: 0;
+  width: 200px;
+  height: 50px;
+  background: #021033;
+  color: #fff;
+  font-family: 'Caviar Dreams';
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition: border 300ms, background 300ms, color 300ms;
+  transition: border 300ms, background 300ms, color 300ms;
+}
+
+#content #info button:hover {
+  border: solid 1px #021033;
+  color: #021033;
+  background: transparent;
+}
+
+#content #options {
+  width: 100%;
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#content #options h1 {
+  width: 90%;
+  margin-left: 10%;
+  margin-bottom: 70px;
+}
+
+#content #options #wrapper {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#content #options #wrapper .element {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#content #options #wrapper .element:first-child #background {
+  background-image: url("../img/hotels/hotel-1.png");
+}
+
+#content #options #wrapper .element:nth-child(2) #background {
+  background-image: url("../img/hotels/hotel-3.png");
+}
+
+#content #options #wrapper .element:nth-child(3) #background {
+  background-image: url("../img/hotels/hotel-4.png");
+}
+
+#content #options #wrapper .element #background {
+  height: 550px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#content #selling-points {
+  margin-top: 280px;
+}
+
+#content #mail {
+  margin-top: 50px;
+  width: 100%;
+  margin-bottom: 250px;
+}
+
+@media only screen and (max-width: 1240px) {
+  #avis #avis-wrapper {
+    width: calc(100% - 150px) !important;
+  }
+  #avis #avis-wrapper .avis {
+    width: 400px !important;
+  }
+}
+
+@media only screen and (max-width: 1140px) {
+  #grid {
+    width: calc(100% - 60px) !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-flow: column nowrap !important;
+            flex-flow: column nowrap !important;
+  }
+  #grid section h1 {
+    font-size: 30px !important;
+  }
+  #grid section #main {
+    font-size: 18px !important;
+  }
+  #grid section #club-advantages p {
+    font-size: 16px !important;
+  }
+  #grid section #distingue p {
+    font-size: 16px !important;
+  }
+  #grid section #underlined {
+    -webkit-box-pack: justify !important;
+        -ms-flex-pack: justify !important;
+            justify-content: space-between !important;
+  }
+  #grid section #underlined p {
+    font-size: 13px !important;
+    margin-right: 0 !important;
+  }
+  #grid #seperation {
+    height: 1px !important;
+    width: 100% !important;
+  }
+  #selection-chambres {
+    padding: 50px 0 !important;
+    height: auto !important;
+  }
+  #selection-chambres #title {
+    margin-top: 0 !important;
+  }
+  #selection-chambres #title h1 {
+    font-size: 30px !important;
+  }
+  #selection-chambres #title button {
+    font-size: 16px !important;
+    height: 45px !important;
+    width: 200px !important;
+  }
+  #selection-chambres #main {
+    margin-top: 30px !important;
+  }
+  #selection-chambres #main h1 {
+    font-size: 60px !important;
+  }
+  #selection-chambres #main p {
+    font-size: 16px !important;
+    width: calc(100% - 20px) !important;
+  }
+  #selection-chambres #main button {
+    height: 55px !important;
+    width: 200px !important;
+    font-size: 16px !important;
+  }
+  #options {
+    height: auto !important;
+  }
+  #options #wrapper {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-flow: column nowrap !important;
+            flex-flow: column nowrap !important;
+  }
+  #options #wrapper .element {
+    width: 100% !important;
+  }
+  #options #wrapper .element #background {
+    height: 400px !important;
+  }
+  .horizontal-grid {
+    margin-top: 100px !important;
+    height: auto !important;
+    margin-bottom: 50px !important;
+  }
+  .horizontal-grid:first-child {
+    margin-top: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  footer {
+    margin-top: 200px !important;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  #avis {
+    height: auto !important;
+    padding: 20px 0 !important;
+  }
+  #avis h1 {
+    font-size: 30px !important;
+    text-align: center !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+  #avis #avis-wrapper {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-flow: column nowrap !important;
+            flex-flow: column nowrap !important;
+    width: calc(100% - 80px) !important;
+  }
+  #avis #avis-wrapper .avis {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  #landing {
+    height: 400px !important;
+  }
+  #landing #logo {
+    margin-top: 20px !important;
+    width: 200px !important;
+  }
+  #landing #stars {
+    margin-bottom: 0 !important;
+  }
+  #landing #stars img {
+    width: 25px !important;
+  }
+  #landing #text {
+    margin-top: -100px !important;
+  }
+  #landing #text h1 {
+    font-size: 50px !important;
+  }
+  #landing #text h3 {
+    font-size: 16px !important;
+  }
+}
+
+@media only screen and (max-width: 701px) {
+  #number h1 {
+    font-size: 100px !important;
+  }
+  #number h3 {
+    font-size: 17px !important;
+  }
+  #inter {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  #inter #top {
+    width: calc(100% - 60px) !important;
+    margin-left: 0 !important;
+  }
+  #inter #top ul {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: justify !important;
+        -ms-flex-pack: justify !important;
+            justify-content: space-between !important;
+  }
+  #inter #top ul li {
+    text-align: center !important;
+    margin: 0 !important;
+    font-size: 16px !important;
+  }
+}

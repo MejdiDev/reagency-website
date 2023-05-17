@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qui Sommes-Nous ?</title>
+    
+    <link rel="stylesheet" href="src/css/reusable.css">
+    <link rel="stylesheet" href="src/css/qui-sommes-nous.css">
+</head>
+
+<body>
+    <script type="text/javascript" src="src/js/index.js"></script>
+    <id id="overlay" onclick="hideMobileNav()"></id>
+
+    <div id="mobileNavbar">
+		<div onclick="hideMobileNav()" id="cross">
+			<svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0px" y="0px" viewBox="0 0 17 17" xml:space="preserve">
+				<path fill="#fff" d="M9.6,8.5L14,4.1c0.3-0.3,0.3-0.8,0-1.1c-0.3-0.3-0.8-0.3-1.1,0L8.5,7.4L4,3C3.7,2.7,3.2,2.7,2.9,3s-0.3,0.8,0,1.1l4.5,4.5 L2.9,13c-0.3,0.3-0.3,0.8,0,1.1c0.1,0.1,0.3,0.2,0.5,0.2c0.1,0,0.3,0,0.6-0.2l4.5-4.5l4.4,4.5c0.1,0.1,0.3,0.2,0.5,0.2 s0.4,0,0.6-0.2c0.3-0.3,0.3-0.8,0-1.1L9.6,8.5z"></path>
+			</svg>
+		</div>
+
+		<h1>Menu</h1>
+		<div class="seperation"></div>
+
+		<ul>
+			<a href="qui-sommes-nous.html"><li>
+				<p> QUI SOMMES-NOUS </p>
+
+				<svg class="sc-6183098d-0 bkEUxk menu-link__icon as--10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5.6 10"><g transform="translate(0 10) rotate(-90)"><path fill="#fff" d="M5.01,5.625a.618.618,0,0,1-.444-.182L.182,1.058A.62.62,0,0,1,1.058.182L4.972,4.1l3.9-3.9a.66.66,0,0,1,.933.933l-4.3,4.3a.659.659,0,0,1-.467.194Z"></path></g></svg>
+			</li></a>
+
+			<a href=""><li>
+				<p> DESTINATIONS </p>
+
+				<svg class="sc-6183098d-0 bkEUxk menu-link__icon as--10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5.6 10"><g transform="translate(0 10) rotate(-90)"><path fill="#fff" d="M5.01,5.625a.618.618,0,0,1-.444-.182L.182,1.058A.62.62,0,0,1,1.058.182L4.972,4.1l3.9-3.9a.66.66,0,0,1,.933.933l-4.3,4.3a.659.659,0,0,1-.467.194Z"></path></g></svg>
+			</li></a>
+
+			<a href="collection-hotels.html"><li>
+				<p> COLLECTION D'HOTELS </p>
+
+				<svg class="sc-6183098d-0 bkEUxk menu-link__icon as--10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5.6 10"><g transform="translate(0 10) rotate(-90)"><path fill="#fff" d="M5.01,5.625a.618.618,0,0,1-.444-.182L.182,1.058A.62.62,0,0,1,1.058.182L4.972,4.1l3.9-3.9a.66.66,0,0,1,.933.933l-4.3,4.3a.659.659,0,0,1-.467.194Z"></path></g></svg>
+			</li></a>
+
+			<a href=""><li>
+				<p> CONCIERGERIE </p>
+
+				<svg class="sc-6183098d-0 bkEUxk menu-link__icon as--10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5.6 10"><g transform="translate(0 10) rotate(-90)"><path fill="#fff" d="M5.01,5.625a.618.618,0,0,1-.444-.182L.182,1.058A.62.62,0,0,1,1.058.182L4.972,4.1l3.9-3.9a.66.66,0,0,1,.933.933l-4.3,4.3a.659.659,0,0,1-.467.194Z"></path></g></svg>
+			</li></a>
+
+			<div class="seperation"></div>
+			<div id="call"><p>RESERVEZ EN LIGNE OU APPELEZ</p> <p>+44 20 35 19 2700</p></div>
+
+			<div class="seperation"></div>
+			<div id="inputs">
+				<select>
+					<option value="AR" selected>AR</option>
+					<option value="FR">FR</option>
+					<option value="EN">EN</option>
+				</select>
+
+				<select>
+					<option value="TND" selected>TND</option>
+					<option value="USD">USD</option>
+					<option value="EUR">AUR</option>
+				</select>
+			</div>
+		</ul>
+	</div>
+
+    <div id="background-page">
+        <nav>
+            <div id="gradient"></div>
+            <a href="index.html"><img src="src/img/logo-blanc.png" alt="Logo"></a>
+    
+            <div id="sections">
+                <a href="qui-sommes-nous.html"><p>QUI SOMMES-NOUS</p></a>
+                <a href=""><p>DESTINATIONS</p></a>
+                <a href="collection-hotels.html"><p>COLLECTION D'HOTELS</p></a>
+                <a href=""><p>CONCIERGERIE</p></a>
+                <a href=""><p>RESERVEZ EN LIGNE OU APPELEZ <br> +44 20 35 19 2700</p></a>
+            </div>
+    
+            <div id="menu" onclick="showMobileNav()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
+
+        <div id="input-wrapper">
+            <div id="input">
+                <img src="src/img/search.png" alt="Search" id="search">
+                <input type="text" placeholder="recherchez un hotel , une  distination">
+                <div class="seperation"></div>
+
+                <input type="date">
+                <div class="seperation"></div>
+
+                <img src="src/img/person.png" alt="Person" id="person">
+            </div>
+
+            <button>Recherche</button>
+        </div>
+    
+        <div id="msg">
+            <div id="text">
+                <p>Bienvenue à notre agence de voyage de luxe. Nous sommes fiers de vous offrir des expériences de voyage exclusives, personnalisées et inoubliables à travers le monde entier.</p>
+                <p>Notre agence de voyage de luxe est spécialisée dans la création de voyages haut de gamme pour les clients les plus exigeants. Nous croyons que chaque voyage doit être unique et révélateur, avec une attention particulière portée à chaque détail.</p>
+                <p>Nous travaillons avec les meilleurs hôtels, compagnies aériennes et prestataires de services pour vous offrir des voyages de luxe sur mesure. Notre équipe expérimentée et passionnée de conseillers en voyages se tient à votre disposition pour vous guider tout au long du processus de réservation, en vous offrant des conseils et des recommandations personnalisées en fonction de vos besoins et de vos préférences.</p>
+                <p>Nous offrons des voyages de luxe dans le monde entier, de l'Asie à l'Europe, en passant par l'Afrique et les Amériques. Que vous cherchiez à découvrir les villes les plus emblématiques, à explorer des cultures fascinantes, à vous détendre sur des plages paradisiaques ou à vivre des aventures inoubliables, notre agence de voyage de luxe saura répondre à vos besoins.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="content">
+        <div id="contact-cta">
+            <img src="src/img/side-icon.png" alt="Regency Logo">
+            <h2>Nous vous invitons à nous contacter dès aujourd'hui pour commencer à planifier votre prochain voyage de luxe. Nous sommes impatients de vous aider à créer des souvenirs inoubliables qui dureront toute une vie. </h2>
+            <button>CONTACTER NOUS</button>
+        </div>
+
+        <div id="mail">
+			<div id="background"></div>
+
+			<div id="container">
+				<h2>DES OFFRES EXCLUSIVES, DES <br> INSPIRATIONS INÉDITES</h2>
+				<h3>Recevez notre newsletter</h3>
+
+				<form>
+					<input type="email" placeholder="Votre Adresse E-mail">
+					<div id="seperation"></div>
+
+					<button>S'ABONNER</button>
+				</form>
+
+				<p>
+					Vos donnees personnelles sont destines d Ilentite juridique RECENCY TRAVEL SARL dans Ie but de vous fournir Ies services RECENCY TRAVEL que vOus avez demandes, de vous envoyer des informations sur les activites et services de RECENCY TRAVEL et de vous proposer des Offres adoptees d vos centres dinteret. Vous pouvez d tout moment vous opposer Ö recevoir des Offres de notre part en utilisant le lien de desinscription present dans chaque message de RECENCY TRAVEL, demander d acceder, faire porter un tiers, rectifier ou supprimer les informations vous concernant traitees par RECENCY TRAVEL Pour exercer vos droits aupres de RECENCY TRAVEL, ecrivez d contact@regencytravel.com . Pour en savoir plus sur Ie traitement de vos donnees personnelles par REGENCY TRAVEL et sur vos droits, consultez notre Charte pour Ia protection des donnees personnelles et de Ia vie privee d radresse suivante : Politique de confidentialite .
+				</p>
+			</div>
+		</div>
+
+        <footer>
+			<div id="upper">
+				<img src="src/img/logo-blanc.png" alt="Regency Logo">
+
+				<ul>
+					<h3>EN SAVOIR PLUS</h3>
+
+					<a href="qui-sommes-nous.html"><li>QUI SOMMES-NOUS</li></a>
+					<a href=""><li>DESTINATIONS</li></a>
+					<a href="collection-hotels.html"><li>COLLECTION D'HOTELS</li></a>
+					<a href=""><li>CONCIERGERIE</li></a>
+				</ul>
+
+				<ul>
+					<h3>LAISSER-NOUS VOS AIDER</h3>
+
+					<a href=""><li>NOUS CONTACTER</li></a>
+					<a href=""><li>AIDE</li></a>
+					<a href=""><li>CONDITIONS GENERALES D'UTILISATION</li></a>
+					<a href=""><li>POLITIQUE DE CONFIDENTIALITE</li></a>
+				</ul>
+
+				<ul>
+					<h3>ACCREDITATIONS</h3>
+
+					<a href=""><li>CERTIFICAT ARC</li></a>
+					<a href=""><li>CERTIFICAT CLIA</li></a>
+					<a href=""><li>CERTIFICAT IATA</li></a>
+					<a href=""><li>CERTIFICAT CST</li></a>
+				</ul>
+			</div>
+
+			<div id="lower">
+				<div id="phone">
+					<img src="src/img/phone.png" alt="Phone">
+					<h3>+44 20 3519 2700</h3>
+				</div>
+
+				<img id="logo" src="src/img/IATA-white.png" alt="IATA LOGO">
+
+				<div id="socials">
+					<a href=""><img src="src/img/instagram.png" alt="Instagram"></a>
+					<a href=""><img src="src/img/Youtube.png" alt="Youtube"></a>
+					<a href=""><img src="src/img/facebook.png" alt="Facebook"></a>
+				</div>
+			</div>
+		</footer>
+    </div>
+</body>
+</html>

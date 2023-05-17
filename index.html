@@ -6,21 +6,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" href="src/img/icon-png.png" type="image/x-icon">
 
+	<link rel="stylesheet" href="src/css/reusable.css">
 	<link rel="stylesheet" type="text/css" href="src/css/caroussel.css">
 	<link rel="stylesheet" type="text/css" href="src/css/index.css">
 	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 </head>
 <body>
+	<script type="text/javascript" src="src/js/index.js"></script>
+	<id id="overlay" onclick="hideMobileNav()"></id>
+
+	<div id="mobileNavbar">
+		<div onclick="hideMobileNav()" id="cross">
+			<svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0px" y="0px" viewBox="0 0 17 17" xml:space="preserve">
+				<path fill="#fff" d="M9.6,8.5L14,4.1c0.3-0.3,0.3-0.8,0-1.1c-0.3-0.3-0.8-0.3-1.1,0L8.5,7.4L4,3C3.7,2.7,3.2,2.7,2.9,3s-0.3,0.8,0,1.1l4.5,4.5 L2.9,13c-0.3,0.3-0.3,0.8,0,1.1c0.1,0.1,0.3,0.2,0.5,0.2c0.1,0,0.3,0,0.6-0.2l4.5-4.5l4.4,4.5c0.1,0.1,0.3,0.2,0.5,0.2 s0.4,0,0.6-0.2c0.3-0.3,0.3-0.8,0-1.1L9.6,8.5z"></path>
+			</svg>
+		</div>
+
+		<h1>Menu</h1>
+		<div class="seperation"></div>
+
+		<ul>
+			<a href="qui-sommes-nous.html"><li>
+				<p> QUI SOMMES-NOUS </p>
+
+				<svg class="sc-6183098d-0 bkEUxk menu-link__icon as--10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5.6 10"><g transform="translate(0 10) rotate(-90)"><path fill="#fff" d="M5.01,5.625a.618.618,0,0,1-.444-.182L.182,1.058A.62.62,0,0,1,1.058.182L4.972,4.1l3.9-3.9a.66.66,0,0,1,.933.933l-4.3,4.3a.659.659,0,0,1-.467.194Z"></path></g></svg>
+			</li></a>
+
+			<a href=""><li>
+				<p> DESTINATIONS </p>
+
+				<svg class="sc-6183098d-0 bkEUxk menu-link__icon as--10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5.6 10"><g transform="translate(0 10) rotate(-90)"><path fill="#fff" d="M5.01,5.625a.618.618,0,0,1-.444-.182L.182,1.058A.62.62,0,0,1,1.058.182L4.972,4.1l3.9-3.9a.66.66,0,0,1,.933.933l-4.3,4.3a.659.659,0,0,1-.467.194Z"></path></g></svg>
+			</li></a>
+
+			<a href="collection-hotels.html"><li>
+				<p> COLLECTION D'HOTELS </p>
+
+				<svg class="sc-6183098d-0 bkEUxk menu-link__icon as--10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5.6 10"><g transform="translate(0 10) rotate(-90)"><path fill="#fff" d="M5.01,5.625a.618.618,0,0,1-.444-.182L.182,1.058A.62.62,0,0,1,1.058.182L4.972,4.1l3.9-3.9a.66.66,0,0,1,.933.933l-4.3,4.3a.659.659,0,0,1-.467.194Z"></path></g></svg>
+			</li></a>
+
+			<a href=""><li>
+				<p> CONCIERGERIE </p>
+
+				<svg class="sc-6183098d-0 bkEUxk menu-link__icon as--10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5.6 10"><g transform="translate(0 10) rotate(-90)"><path fill="#fff" d="M5.01,5.625a.618.618,0,0,1-.444-.182L.182,1.058A.62.62,0,0,1,1.058.182L4.972,4.1l3.9-3.9a.66.66,0,0,1,.933.933l-4.3,4.3a.659.659,0,0,1-.467.194Z"></path></g></svg>
+			</li></a>
+
+			<div class="seperation"></div>
+			<div id="call"><p>RESERVEZ EN LIGNE OU APPELEZ</p> <p>+44 20 35 19 2700</p></div>
+
+			<div class="seperation"></div>
+			<div id="inputs">
+				<select>
+					<option value="AR" selected>AR</option>
+					<option value="FR">FR</option>
+					<option value="EN">EN</option>
+				</select>
+
+				<select>
+					<option value="TND" selected>TND</option>
+					<option value="USD">USD</option>
+					<option value="EUR">AUR</option>
+				</select>
+			</div>
+		</ul>
+	</div>
 
 	<nav>
-		<img src="src/img/logo-default.png" alt="Logo">
+		<a href="index.html">
+            <img src="src/img/logo-default.png" alt="Logo">
+        </a>
 
-		<div>
-			<a href=""><p>QUI SOMMES-NOUS</p></a>
+		<div id="sections">
+			<a href="qui-sommes-nous.html"><p>QUI SOMMES-NOUS</p></a>
 			<a href=""><p>DESTINATIONS</p></a>
-			<a href=""><p>COLLECTION D'HOTELS</p></a>
+			<a href="collection-hotels.html"><p>COLLECTION D'HOTELS</p></a>
 			<a href=""><p>CONCIERGERIE</p></a>
 			<a href=""><p>RESERVEZ EN LIGNE OU APPELEZ <br> +44 20 35 19 2700</p></a>
+		</div>
+
+		<div id="menu" onclick="showMobileNav()">
+			<div></div>
+			<div></div>
+			<div></div>
 		</div>
 	</nav>
 
@@ -141,15 +207,15 @@
 			<div>
 				<div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
 					<div class="gallery-cell">
-						<iframe src="https://www.youtube.com/embed/JXMWOmuR1hU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+						<img src="https://t3.ftcdn.net/jpg/01/34/53/74/360_F_134537443_VendrqyXIWyHrZgxdIsfyKUost734JDP.jpg" alt="">
 					</div>
 					
 					<div class="gallery-cell">
-						<iframe src="https://www.youtube.com/embed/JXMWOmuR1hU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+						<img src="https://t3.ftcdn.net/jpg/01/34/53/74/360_F_134537443_VendrqyXIWyHrZgxdIsfyKUost734JDP.jpg" alt="">
 					</div>
 
 					<div class="gallery-cell">
-						<iframe src="https://www.youtube.com/embed/JXMWOmuR1hU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+						<img src="https://t3.ftcdn.net/jpg/01/34/53/74/360_F_134537443_VendrqyXIWyHrZgxdIsfyKUost734JDP.jpg" alt="">
 					</div>
 				</div>
 			</div>
@@ -187,14 +253,14 @@
 
 		<footer>
 			<div id="upper">
-				<img src="src/img/logo-blanc.png" alt="Reagency Logo">
+				<img src="src/img/logo-blanc.png" alt="Regency Logo">
 
 				<ul>
 					<h3>EN SAVOIR PLUS</h3>
 
-					<a href=""><li>QUI SOMMES-NOUS</li></a>
+					<a href="qui-sommes-nous.html"><li>QUI SOMMES-NOUS</li></a>
 					<a href=""><li>DESTINATIONS</li></a>
-					<a href=""><li>COLLECTION D'HOTELS</li></a>
+					<a href="collection-hotels.html"><li>COLLECTION D'HOTELS</li></a>
 					<a href=""><li>CONCIERGERIE</li></a>
 				</ul>
 
@@ -236,7 +302,6 @@
 
     <script type="text/javascript" src="src/js/caroussel.js"></script>
 	<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-	<script type="text/javascript" src="src/js/main.js"></script>
 
 </body>
 </html>

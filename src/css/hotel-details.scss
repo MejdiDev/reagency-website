@@ -1,0 +1,796 @@
+#overlay {
+    width: 100% !important;
+}
+
+#mobileNavbar {
+    width: 40vw;
+}
+
+nav {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+
+    #menu {
+        margin-top: -2px;
+
+        div {
+            background: #000;
+        }
+    }
+
+    img {
+        width: 200px;
+    }
+}
+
+#content {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-flow:  column nowrap;
+    align-items: center;
+
+    #landing {
+        margin-bottom: 102px;
+        width: 100%;
+        height: 120vh;
+        transition: height 300ms;
+        position: relative;
+        
+        background-image: url('../img/hotels/hotel-2.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+
+        #logo {
+            margin-top: 70px;
+            filter: drop-shadow(2.544px 1.59px 0.98px rgba(0, 0, 0, 0.67));
+            width: 330px;    
+        }
+
+        h1 {
+            font-size: 100px;
+        }
+
+        h3 {
+            font-size: 30px;
+        }
+
+        #input-wrapper {
+            top: calc(120vh - 30px);
+            margin-left: 0;
+        }
+
+        #gradient {
+            position: absolute;
+            width: 100%;
+            height: 70%;
+            top: 30%;
+
+            background: rgb(2,16,51);
+            background: linear-gradient(0deg, rgba(2,16,51,1) 0%, rgba(0,212,255,0) 100%);
+        }
+
+        #text {
+            margin-top: -140px;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
+            justify-content: center;
+
+            #stars {
+                z-index: 996;
+                margin-bottom: 20px;
+
+                img {
+                    width: 40px;
+                }
+            }
+
+            h1 {
+                color: #fff;
+                z-index: 996;
+                margin: 0;
+            }
+
+            h3 {
+                color: #fff;
+                z-index: 996;
+                margin: 0;
+            }
+        }
+    }
+
+    #features {
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        margin-bottom: 150px;
+
+        #top {
+            width: 90%;
+        }
+    }
+
+    #number {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        margin-top: 100px;
+
+        h1 {
+            font-size: 150px;
+            color: #ff5500;
+            margin: 0;
+            text-align: center;
+        }
+
+        h3 {
+            font-weight: 600;
+            font-size: 25px;
+            color: #021033;
+            margin: 0;
+            text-align: center;
+        }
+    }
+
+    #grid {
+        width: calc(100% - 120px);
+        gap: 40px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        margin-top: 150px;
+
+        section:first-child {
+            color: #021033;
+
+            h1 {
+                font-size: 35px;
+            }
+
+            #main {
+                font-size: 22px;
+            }
+
+            #underlined {
+                display: flex;
+                flex-flow: row nowrap;
+                align-items: center;
+
+                p {
+                    font-size: 16px;
+                    font-weight: 600;
+                    margin-right: 20px;
+                    text-decoration: underline;
+                    text-underline-offset: 3px;
+                    transition: color 250ms;
+                    cursor: pointer;
+
+                    &:hover {
+                        color: #ff5500;
+                    }
+
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                }
+            }
+
+            button {
+                background: #021033;
+                color: #fff;
+                font-family: 'Caviar Dreams';
+                font-size: 20px;
+                width: 200px;
+                height: 50px;
+                transition: color 400ms, background 400ms;
+                font-weight: 600;
+                cursor: pointer;
+                margin-top: 20px;
+
+                &:hover {
+                    color: #021033;
+                    background: #fff;
+                }
+            }
+        }
+
+        #seperation {
+            height: 600px;
+            width: 1px;
+            background: #000;
+        }
+
+        section:last-of-type {
+            color: #021033;
+
+            h1 {
+                font-size: 35px;
+                margin: 0;
+
+                &:last-of-type {
+                    margin-top: 50px;
+                }
+            }
+
+            p {
+                margin: 0;
+            }
+
+            #main {
+                font-size: 22px;
+            }
+
+            #club-advantages {
+                margin: 20px 0;
+
+                div {
+                    display: flex;
+                    flex-flow: row nowrap;
+                    align-items: center;
+                    margin-bottom: 15px;
+
+                    img {
+                        width: 28px; 
+                        height: 28px;
+                        margin-right: 10px;
+                    }
+    
+                    p {
+                        display: flex;
+                        align-items: center;
+                        font-size: 18px;
+                    }
+                }
+            }
+
+            p:nth-of-type(2) {
+                font-weight: 600;
+            }
+
+            #compte {
+                display: flex;
+                flex-flow: row nowrap;
+                align-items: center;
+                font-weight: 600;
+
+                p:first-child, p:last-child {
+                    font-size: 16px;
+                    text-decoration: underline;
+                    text-underline-offset: 3px;
+
+                    transition: color 250ms;
+                    cursor: pointer;
+
+                    &:hover {
+                        color: #ff5500;
+                    }
+                }
+            }
+
+            #compte p {
+                font-size: 16px !important;
+            }
+
+            #distingue p {
+                font-weight: 600;
+                font-size: 17px;
+                margin-top: 25px;
+            }
+        }
+    }
+
+    #selection-chambres {
+        width: 100%;
+        height: 700px;
+        position: relative;
+
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+
+        background-image: url('../img/room.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        #gradient {
+            position: absolute;
+            width: 100%;
+            height: 70%;
+            bottom: 0;
+
+            background: rgb(2,16,51);
+            background: linear-gradient(0deg, rgba(2,16,51,1) -25%, rgba(0,212,255,0) 100%);
+        }
+
+        #title {
+            z-index: 996;
+            color: #fff;
+            width: 90%;
+            margin-top: 80px;
+
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+            justify-content: space-between;
+
+            h1 {
+                font-size: 35px;
+            }
+
+            button {
+                height: 50px;
+                width: 220px;
+                font-weight: 600;
+                font-size: 18px;
+                color: #fff;
+                font-family: "Caviar Dreams";
+                background: transparent;
+                border: solid 1px #fff;
+                cursor: pointer;
+                transition: color 300ms, border 300ms, background 300ms;
+
+                &:hover {
+                    color: #021033;
+                    border-color: #021033;
+                    background: #fff;
+                }
+            }
+        }
+
+        #seperation {
+            height: 1px;
+            width: 90%;
+            background: #fff;
+        }
+
+        #main {
+            margin-top: 100px;
+            width: 95%;
+            margin-left: 5%;
+            z-index: 996;
+            color: #fff;
+            font-weight: 500;
+
+            h1 {
+                font-size: 80px;
+                margin: 0;
+            }
+
+            p {
+                width: 600px;
+                font-weight: 600;
+                font-size: 16px;
+            }
+
+            button {
+                border: none;
+                border-radius: 0;
+                width: 250px;
+                height: 65px;
+                background: #ff5500;
+                color: #fff;
+                font-family: 'Caviar Dreams';
+                font-weight: 600;
+                font-size: 18px;
+                margin-top: 15px;
+                cursor: pointer;
+                transition: background 300ms;
+    
+                &:hover {
+                    background: #cc4400;
+                }
+            }
+        }
+    }
+
+    #avis {
+        height: 600px;
+        width: 100%;
+        background: #f7f3f3;
+        color: #021033;
+        margin-bottom: 80px;
+
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+
+        h1 {
+            width: calc(100% - 200px);
+            margin-left: 0;
+        }
+
+        #avis-wrapper {
+            width: calc(100% - 200px);
+
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+
+            .avis {
+                width: 500px;
+    
+                #top {
+                    display: flex;
+                    flex-flow: row nowrap;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 100%;
+                }
+    
+                #seperation {
+                    width: 100%;
+                    height: 1px;
+                    background: #000;
+                }
+    
+                h2 {
+                    margin: 0;
+                    font-weight: 500;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+    #inter {
+        display: flex;
+        justify-content: start;
+
+        width: 100%;
+        color: #021033;
+
+        margin-bottom: 80px;
+
+        #top {
+            width: calc(100% - 150px);
+            margin-left: 100px;
+
+            h1 {
+                font-size: 45px;
+            }
+        }
+    }
+
+    #info {
+        width: 100%;
+        background: #f7f3f3;
+        color: #021033;
+        padding: 30px 0 40px 0;
+        margin-bottom: 100px;
+
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: space-evenly;
+
+        #hotel-info {
+            margin: 0;
+            height: auto;
+
+            .point {
+                height: auto;
+                text-align: start;
+
+                h2, p {
+                    margin: 0;
+                }
+
+                h2 {
+                    margin-top: 50px;
+                }
+
+                p {
+                    margin-top: 5px;
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+            }
+
+            .seperation div {
+                margin-top: 20px;
+                height: 450px;
+            }
+        }
+
+        button {
+            margin-top: 40px;
+            z-index: 997;
+            border: none;
+            border-radius: 0;
+            width: 200px;
+            height: 50px;
+            background: #021033;
+            color: #fff;
+            font-family: 'Caviar Dreams';
+            font-weight: 600;
+            font-size: 16px;
+            cursor: pointer;
+            transition: border 300ms, background 300ms, color 300ms;
+
+            &:hover {
+                border: solid 1px #021033;
+                color: #021033;
+                background: transparent;
+            }
+        }
+    }
+
+    #options {
+        width: 100%;
+        height: 600px;
+
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+
+        h1 {
+            width: 90%;
+            margin-left: 10%;
+            margin-bottom: 70px;
+        }
+
+        #wrapper {
+            width: 80%;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            align-items: center;
+
+            .element {
+                width: 30%;
+                display: flex;
+                flex-flow: column nowrap;
+                align-items: center;
+
+                &:first-child #background { background-image: url('../img/hotels/hotel-1.png') }
+                &:nth-child(2) #background { background-image: url('../img/hotels/hotel-3.png') }
+                &:nth-child(3) #background { background-image: url('../img/hotels/hotel-4.png') }
+
+                #background {
+                    height: 550px;
+                    width: 100%;
+
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+            }
+        }
+    }
+
+    #selling-points {
+        margin-top: 280px;
+    }
+
+    #mail {
+        margin-top: 50px;
+        width: 100%;
+        margin-bottom: 250px;
+    }
+}
+
+@media only screen and (max-width: 1240px) {
+    #avis {
+        #avis-wrapper {
+            width: calc(100% - 150px) !important;
+
+            .avis {
+                width: 400px !important;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1140px) {
+    #grid {
+        width: calc(100% - 60px) !important;
+        flex-flow: column nowrap !important;
+
+        section {
+            h1 {
+                font-size: 30px !important;
+            }
+
+            #main {
+                font-size: 18px !important;
+            }
+
+            #club-advantages p {
+                font-size: 16px !important;
+            }
+
+            #distingue p {
+                
+                font-size: 16px !important;
+            }
+
+            #underlined {
+                justify-content: space-between !important;
+
+                p {
+                    font-size: 13px !important;
+                    margin-right: 0 !important;
+                }
+            }
+        }
+
+        #seperation {
+            height: 1px !important;
+            width: 100% !important;
+        }
+    }
+
+    #selection-chambres {
+        padding: 50px 0 !important;
+        height: auto !important;
+
+        #title {
+            margin-top: 0 !important;
+
+            h1 {
+                font-size: 30px !important;
+            }
+
+            button {
+                font-size: 16px !important;
+                height: 45px !important;
+                width: 200px !important;
+            }
+        }
+
+        #main {
+            margin-top: 30px !important;
+
+            h1 {
+                font-size: 60px !important;
+            }
+
+            p {
+                font-size: 16px !important;
+                width: calc(100% - 20px) !important;
+            }
+
+            button {
+                height: 55px !important;
+                width: 200px !important;
+                font-size: 16px !important;
+            }
+        }
+    }
+
+    #options {
+        height: auto !important;
+
+        #wrapper {
+            flex-flow: column nowrap !important;
+
+            .element {
+                width: 100% !important;
+
+                #background {
+                    height: 400px !important;
+                }
+            }
+        }
+    }
+
+    .horizontal-grid {
+        margin-top: 100px !important;
+        height: auto !important;
+        margin-bottom: 50px !important;
+
+        &:first-child {
+            margin-top: 0 !important;
+        }
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    footer {
+        margin-top: 200px !important;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    #avis {
+        height: auto !important;
+        padding: 20px 0 !important;
+
+        h1 {
+            font-size: 30px !important;
+            text-align: center !important;
+            width: 100% !important;
+            margin-left: 0 !important;
+        }
+
+        #avis-wrapper {
+            flex-flow: column nowrap !important;
+            width: calc(100% - 80px) !important;
+
+            .avis {
+                width: 100% !important;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    #landing {
+        height: 400px !important;
+
+        #logo {
+            margin-top: 20px !important;
+            width: 200px !important;
+        }
+
+        #stars {
+            margin-bottom: 0 !important;
+
+            img {
+                width: 25px !important;
+            }
+        }
+
+        #text {
+            margin-top: -100px !important;
+
+            h1 {
+                font-size: 50px !important;
+            }
+
+            h3 {
+                font-size: 16px !important;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 701px) {
+    #number {
+        h1 {
+            font-size: 100px !important;
+        }
+
+        h3 {
+            font-size: 17px !important;
+        }
+    }
+
+    #inter {
+        justify-content: center !important;
+
+        #top {
+            width: calc(100% - 60px) !important;
+            margin-left: 0 !important;
+
+            ul {
+                display: flex !important;
+                justify-content: space-between !important;
+
+                li {
+                    text-align: center !important;
+                    margin: 0 !important;
+                    font-size: 16px !important;
+                }
+            }
+        }
+    }
+}
